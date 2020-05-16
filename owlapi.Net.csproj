@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>Owlapi.Net.Unofficial</PackageId>
+    <Authors>Peter Crowther (peter.crowther@melandra.com)</Authors>
+    <Company>The University of Manchester</Company>
+    <PackageTags>OWL OWL2 obo owlapi</PackageTags>
+    <PackageReleaseNotes>Initial 0.1.0 release: OBO format parser.</PackageReleaseNotes>
+    <AssemblyVersion>0.1.0.0</AssemblyVersion>
+    <FileVersion>0.1.0.0</FileVersion>
+    <Version>0.1.0</Version>
+    <PackageLicenseExpression>LGPL-3.0-or-later</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/Ozzard/owlapi.Net</PackageProjectUrl>
+    <Description>A partial and unofficial port of OWLAPI (https://github.com/owlcs/owlapi) to .Net Core 3.1+.</Description>
+    <Copyright />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NLog" Version="4.7.1" />
+  </ItemGroup>
+
+</Project>
